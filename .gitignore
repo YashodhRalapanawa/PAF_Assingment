@@ -1,0 +1,33 @@
+# General
+.DS_Store
+*.log
+.qodo/
+
+# Dependencies
+node_modules/
+
+# Frontend build
+frontend/node_modules/
+dist/
+dist-ssr/
+
+# Backend build
+/backend/target/
+/backend/uploads/
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment variables
+.env
+.env.*
+
+# Backend config
+application.properties
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+.properties
